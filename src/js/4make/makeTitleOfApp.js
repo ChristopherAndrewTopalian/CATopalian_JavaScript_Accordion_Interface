@@ -13,7 +13,7 @@ function makeTitleOfApp()
 
     let titleOfApp = ce('a');
     titleOfApp.id = 'titleOfApp';
-    titleOfApp.textContent = 'Topalian JavaScript Accordion Interface';
+    titleOfApp.textContent = 'CATopalian JavaScript Accordion Interface';
     titleOfApp.href = 'https://github.com/christophertopalian/';
     titleOfApp.target = '_blank';
     titleOfApp.style.fontSize = '17px';
