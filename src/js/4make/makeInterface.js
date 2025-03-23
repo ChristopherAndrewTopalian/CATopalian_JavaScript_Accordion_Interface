@@ -38,7 +38,7 @@ function makeInterface(whichArray)
 
     //-//
 
-    makeElementDraggable(mainDiv);
+    // makeElementDraggable(mainDiv);
 
     //-//
 
