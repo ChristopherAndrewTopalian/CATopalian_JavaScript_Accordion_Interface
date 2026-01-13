@@ -18,6 +18,7 @@ function makeInterface(whichArray)
     titleOfApp.style.fontWeight = 'bold';
     titleOfApp.style.textDecoration = 'none';
     titleOfApp.style.color = 'rgb(100, 100, 100)';
+    titleOfApp.style.fontFamily = 'Arial';
     ba(titleOfApp);
 
     //-//
