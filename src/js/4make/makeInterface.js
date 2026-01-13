@@ -6,8 +6,19 @@ function makeInterface(whichArray)
 
     if (ge(menuId))
     {
-        removeElement(menuId);
+        ge(menuId).remove();
     }
+
+    let titleOfApp = ce('a');
+    titleOfApp.id = 'titleOfApp';
+    titleOfApp.textContent = 'CATopalian JavaScript Accordion Interface';
+    titleOfApp.href = 'https://github.com/ChristopherAndrewTopalian/CATopalian_JavaScript_Accordion_Interface';
+    titleOfApp.target = '_blank';
+    titleOfApp.style.fontSize = '17px';
+    titleOfApp.style.fontWeight = 'bold';
+    titleOfApp.style.textDecoration = 'none';
+    titleOfApp.style.color = 'rgb(100, 100, 100)';
+    ba(titleOfApp);
 
     //-//
 
@@ -97,10 +108,10 @@ function makeInterface(whichArray)
     }
 }
 
-//--//
+//----//
 
 // Dedicated to God the Father
-// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2025
+// All Rights Reserved Christopher Andrew Topalian Copyright 2000-2026
 // https://github.com/ChristopherTopalian
 // https://github.com/ChristopherAndrewTopalian
 // https://sites.google.com/view/CollegeOfScripting
